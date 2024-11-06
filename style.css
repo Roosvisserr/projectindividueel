@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f1f6; /* Lichte roze achtergrond */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f78fb3;
+    color: white;
+    padding: 1rem;
+}
+
+header img {
+    width: 40px; /* Pas de grootte van het logo aan */
+    height: auto;
+    margin-right: 20px; /* Ruimte tussen logo en navigatie */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Zet knoppen naast elkaar */
+    gap: 10px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    background-color: #38ada9;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    font-size: 0.85rem;
+}
+
+nav ul li a:hover {
+    background-color: #78e08f;
+}
+
+main {
+    padding: 15px;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color: #4CAF50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+ul.examples-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.examples-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+ul.examples-list li .example-image {
+    width: 80px;
+    height: auto;
+    margin-left: 10px; 
+    border-radius: 5px;
+}
+
+.overconsumptie {
+    width: 200px;
+    height: auto;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.blad {
+    width: 200px;
+    height: auto;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #ffcccc;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.logoonderin { 
+    width: 40px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 10px;
+}
